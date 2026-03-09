@@ -13,7 +13,7 @@ p 和 pₒ 分别代表新版广告与旧版广告的转化率
 ## 二、数据描述
 
 ## 三、数据描述
-import pandas as pd
+···import pandas as pd
 import numpy as np
 import scipy.stats as stats
 from scipy.stats import norm
