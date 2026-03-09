@@ -1,4 +1,4 @@
-# SmartAd-AB-Testing-Analysis
+<img width="2012" height="368" alt="image" src="https://github.com/user-attachments/assets/0f9ae4d7-5daf-42da-9784-9d952b01cbed" /># SmartAd-AB-Testing-Analysis
 评估不同投放策略对用户转化率的影响
 ## 一、实验背景
 ### 1.商业背景：
@@ -13,15 +13,21 @@ p 和 pₒ 分别代表新版广告与旧版广告的转化率
 ## 二、数据描述
 
 ## 三、数据描述
-···import pandas as pd
+
+```import pandas as pd
 import numpy as np
 import scipy.stats as stats
 from scipy.stats import norm
 import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-%matplotlib inline
+%matplotlib inline```
 
+```df = pd.read_csv('./AdSmartABdata - AdSmartABdata.csv')
+df.head()```
+
+
+```df.info()```
 
 
 
